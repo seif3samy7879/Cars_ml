@@ -27,7 +27,7 @@ st.set_page_config(
 @st.cache_data
 def load_data():
 
-    df = pd.read_csv("cars_dataset.csv")
+    df = pd.read_csv("USA_cars_datasets.csv")
 
     # Drop unnecessary columns
     drop_cols = ["Unnamed: 0", "vin", "lot"]
